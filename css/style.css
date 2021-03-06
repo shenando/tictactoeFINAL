@@ -1,0 +1,96 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body {
+  background-color: #f9fafb;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 80vh;
+}
+
+.btn {
+  width: 165px;
+  height: 165px;
+  border: 0;
+  cursor: pointer;
+  text-align: center;
+  font-size: 82px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.zero,
+.three {
+  border-right: 5px solid #000;
+  border-bottom: 5px solid #000;
+}
+
+.one,
+.four {
+  border-bottom: 5px solid #000;
+}
+
+.two,
+.five {
+  border-left: 5px solid #000;
+  border-bottom: 5px solid #000;
+}
+
+.six {
+  border-right: 5px solid #000;
+}
+
+.eight {
+  border-left: 5px solid #000;
+}
+
+.new {
+  margin: 20px 175px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.new:focus {
+  outline: none;
+}
+
+.active {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+}
