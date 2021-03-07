@@ -60,7 +60,7 @@ class Game {
 
   processMove(symbol) {
     if (this.isWin(symbol)) {
-      gameBoard.setWinMessage(`${symbol} won!!`)
+      gameBoard.setWinMessage(`${symbol} WON!!`)
       this.hasWinner = true
     }
 

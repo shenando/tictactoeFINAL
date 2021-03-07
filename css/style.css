@@ -43,6 +43,8 @@ body {
   cursor: pointer;
   text-align: center;
   font-size: 82px;
+  background-color: grey;
+  color: #fff;
 }
 
 .btn:focus {
@@ -51,34 +53,36 @@ body {
 
 .zero,
 .three {
-  border-right: 5px solid #000;
-  border-bottom: 5px solid #000;
+  border-right: 5px solid #fff;
+  border-bottom: 5px solid #fff;
 }
 
 .one,
 .four {
-  border-bottom: 5px solid #000;
+  border-bottom: 5px solid #fff;
 }
 
 .two,
 .five {
-  border-left: 5px solid #000;
-  border-bottom: 5px solid #000;
+  border-left: 5px solid #fff;
+  border-bottom: 5px solid #fff;
 }
 
 .six {
-  border-right: 5px solid #000;
+  border-right: 5px solid #fff;
 }
 
 .eight {
-  border-left: 5px solid #000;
+  border-left: 5px solid #fff;
 }
 
 .new {
   margin: 20px 175px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid;
+  border: 1px solid grey;
+  background-color: grey;
+  color: #fff;
 }
 
 .new:focus {
@@ -91,5 +95,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 40px;
-  width: 100%;
+  width: 99%;
+  color: #fff;
 }
