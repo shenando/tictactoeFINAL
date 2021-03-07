@@ -2,6 +2,8 @@ const btns = document.querySelectorAll('.btn')
 const winMessage = document.querySelector('h2')
 const newGameBtn = document.getElementById('new').addEventListener('click', resetAll)
 
+////////////Game Class//////////////////
+
 class Game {
   constructor() {
     this.winConditions = [
@@ -76,7 +78,7 @@ class Game {
 }
 
 
-
+////////////Board Class//////////////////
 
 class BoardGUI {
   constructor() {
@@ -84,14 +86,10 @@ class BoardGUI {
   }
 
   markBox() {
-    let turn = 0
 
     for (const btn of btns) {
       btn.addEventListener('click', (e) => {
         e.preventDefault()
-        
-        turn++
-        console.log(turn)
     
         if (btn.innerText.length === 0 && game.hasWinner === false) {
           btn.innerText = game.curTurn
@@ -118,6 +116,7 @@ class BoardGUI {
   }
 }
 
+////////////Main Funcs//////////////////
 
 function resetAll() {
   game.restart()
