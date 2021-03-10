@@ -1,5 +1,5 @@
 # Tic Tac Toe
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+A simple game of Tic Tac Toe where two players can compete to win the match!
 
 **Link to project:** https://shenantictactoe.netlify.app/
 
@@ -21,4 +21,4 @@ The beauty (and pain) of OOP was highlighted for me in this project. Being able 
 
 ## Examples:
 
-**HoverBoard:** https://github.com/shenando/updatedHoverboard
+**Hover Board:** https://github.com/shenando/updatedHoverboard
