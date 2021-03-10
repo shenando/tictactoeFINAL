@@ -3,7 +3,7 @@ Write a short sentence or two about this project and what it does. Be sure to in
 
 **Link to project:** https://shenantictactoe.netlify.app/
 
-![alt tag](https://i.imgur.com/8GLeqBC.gifv)
+![tictactoe gif](https://i.imgur.com/8GLeqBC.gif)
 
 ## How It's Made:
 
